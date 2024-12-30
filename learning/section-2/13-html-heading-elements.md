@@ -1,6 +1,6 @@
 # Introduction to HTML
 
-## What is HTML? 
+## Topic: HTML Heading Elements 
 
 ## Date: 30/12/2024 
 
@@ -16,10 +16,9 @@
 
 ### Notes Section (Main Notes)
 
-**1. HTML: HyperText Markup Language**
-- HyperText: The pieces of text which can link to other documents in the website
-- Markup Language: HTML tags (e.g: a, canvas, footer,... with <> surrounding the content)
-
+- [Insert main notes or details]
+- [Include important points, diagrams, or examples]
+- [Use bullet points, numbers, or paragraphs as needed]
 
 ---
 
