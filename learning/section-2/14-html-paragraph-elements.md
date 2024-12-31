@@ -1,8 +1,8 @@
-# Cornell Notes
+# Introduction to HTML
 
-## Topic: [Insert Topic Here]  
+## Topic: HTML Heading Elements 
 
-## Date: [Insert Date Here]  
+## Date: 30/12/2024 
 
 ---
 
@@ -16,12 +16,13 @@
 
 ### Notes Section (Main Notes)
 
-- [Insert main notes or details]
-- [Include important points, diagrams, or examples]
-- [Use bullet points, numbers, or paragraphs as needed]
+- Paragraph element: starting which an opening tag (< p >) and ending with a closing tag (< /p >) and the **content** will goes in between these two tags.
 
+    ```<p>This is a paragraph</p>```
 ---
 
 ### Summary Section (Summary of Notes)
-
-[Insert a brief summary of the key ideas and takeaways]
+Web for automatically generate text for testing: 
+1. [Lorem Ipsum](https://www.lipsum.com/)
+2. [Bacon Ipsum](https://baconipsum.com/)
+3. [Bro Ipsum](https://www.broipsum.com/)
