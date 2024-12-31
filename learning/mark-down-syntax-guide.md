@@ -64,8 +64,8 @@ Use numbers followed by periods:
 
 ### Reference Link:
 ```markdown
-[Text][id]  
-[id]: https://example.com
+[Text](id)  
+(id): https://example.com
 ```
 
 ---
