@@ -49,5 +49,3 @@
 ---
 
 ### Summary Section (Summary of Notes)
-
-
