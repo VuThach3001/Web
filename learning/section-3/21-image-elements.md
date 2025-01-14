@@ -16,21 +16,25 @@
 
 ### Notes Section (Main Notes)
 
-- **Image element**: There will be an opening tag < a > and closing tag < /a >
+- **Image element**: Similar to the anchor tag, 
 
-    ```< a >This is a link < /a >```
+    ```< img src = "url" />```
 
-- We need to add an additional *attribute* which goes in opening tag.
+- The main component of an image tag that renders the image is the attribute **src** which is **source**, after the equal sign, the value is going to be the **location** of the image
+- However, unlike the anchor tag, it doesn't have a closing tag, it's a self-closing tag, also known as a ***void element***, which is already mentioned like ***horizontal rule*** or ***brear rule***
+- **Example**:
+    
+    ``` < img src = "https://picsum.photos/200" />```
 
-    ```< a href="http://www.google.com">This is a link< /a >```
+    **Result**:
 
-- **HTML Atrributes**: The structure of the attribute will be:
+    <img src = "https://picsum.photos/200"/>
 
-    ``` <tag attribute=value>Content</tag> ```
+- The other attribute for an image tag that's super important and one that you should always have is the ***alt*** attribute which stands for Alternavtive Text Description:
 
-- There is as many attributes as we want, make sure to seperate them with a space and go into the opening tag.
+    ``` < img src = "https://picsum.photos/200" alt = "attribute" />```
 
-    ``` <tag attribute=value anotherattribute=value>Content</tag> ```
+- This serves for people who've got the abmornal functionalities to read or write and provides the environment for some apps will approach to the attribute of the image and provide some easier way for them to get informed.
 
 
 ---
