@@ -80,6 +80,14 @@ There are some ways to represent font-size:
       <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     </head>
   ```
+
+**4. Text Align**:
+- you can set the text to center or left or right or using some value given in the MDN docs to learn more about that.
+  ```
+  h1{
+    text-align: center;
+  }
+  ```
 ---
 
 ### Summary Section (Summary of Notes)
