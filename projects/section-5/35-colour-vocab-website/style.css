@@ -1,0 +1,32 @@
+/* Change the color by using the id */
+#red{
+    color: red;
+}
+
+#blue{
+    color: blue;
+}
+
+#orange{
+    color: orange;
+}
+
+#green{
+    color: green;
+}
+
+#yellow{
+    color: yellow;
+}
+
+/* Change all the color tittle to have "font-weigth" */
+.color-title{
+    font-weight: normal;
+}
+
+/* Make all the images 200px heigh and 200px wide */
+
+img{
+    height: 200px;
+    width:200px;
+}
