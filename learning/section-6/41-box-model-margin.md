@@ -68,7 +68,7 @@ on the web page, also for the width.
 
 - When we want to group different bits of content together so that we can style it. The way that we would create the artificial boxes to cover:
 ```
-  <div>As many element as we watn</div>
+  <div>As many element as we want</div>
 ```
 ---
 
