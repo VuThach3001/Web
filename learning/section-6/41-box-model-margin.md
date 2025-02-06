@@ -74,5 +74,3 @@ on the web page, also for the width.
 
 ### Summary Section (Summary of Notes)
 
-Useful links:
-
