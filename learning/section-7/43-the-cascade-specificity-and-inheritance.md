@@ -62,7 +62,7 @@ There are 4 broad categories which we look at when we're determining the overall
 
 **3. Type**
 
-- It will follow this hierachy:
+- It will follow this hierarchy:
 
   **1. Incline**
   ```
