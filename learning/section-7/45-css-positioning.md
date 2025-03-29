@@ -44,6 +44,16 @@ element.style{
 
 Position relative to top left corner of browser window
 
+**Format**
+```
+element{
+    position: static/relative/absolute/fixed;
+    top: px;
+    right: px;
+}
+
+```
+
 ---
 
 ### Summary Section (Summary of Notes)
