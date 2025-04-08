@@ -43,13 +43,37 @@ It means that we will keep for the elements in the same line until we can no lon
 h2 {
     display: inline;
 }
-
 <h2>Harry</h2>
 <h2>Potter</h2>
+```
+The result would be:
 
 ```
+    Harry 
+    Potter
+```
+**2. Block**
+
+The span has the value set to something called "block". 
+
+Instead of keeping the text in the same line. It turns out to set the context to the next line
+
+```
+h2 {
+    display: block;
+}
+<h2>Harry</h2>
+<h2>Potter</h2>
+```
+The result would be:
+
+```
+    Harry Potter
+```
+
+**3. Inline - Block**
 
 ---
 
-### Summary Section (Summary of Notes)
+### Summary Section (Summary of Notes) 
 
