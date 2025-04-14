@@ -37,7 +37,7 @@ The span has the value set to something called "inline".
 It means that we will keep for the elements in the same line until we can no longer fit anymore onto the width of the web page.
 
 ***Important things***:
-- Cant't actually set the size, width and height of these elements as they will default to the size of their content
+- Cant't actually set the size, width and height of these elements as they will default to the size of their content.
 
 ```
 h2 {
@@ -73,6 +73,10 @@ The result would be:
 
 **3. Inline - Block**
 
+- **Block element** allows ú to set the height and width.
+- **Inline** allows us to have elements that go on to the same line.
+- Change the property to block-inline or inline-block, we can actually determine the layout of our website.
+- When you set the display property to *none*, then it will make any element on the screen disappear.
 ---
 
 ### Summary Section (Summary of Notes) 
