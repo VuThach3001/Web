@@ -32,7 +32,7 @@ element {
 - As soon as this CSS is applied, thet the text will begin to wrap around the image.
 
 **Clear:**
-
+- Clear any responsibility to wrap around things that are floating.
 
 ---
 
