@@ -50,30 +50,37 @@
 
 **2. Min Width**
 - Also there is a minimum width query:
-    ```
-        @media (min-width: 600px){
-            h1{
-                font-size: 15px;
-            }
-        }
-    ```
-  - So if there is anything that is from 600pox upwards, then we should have a different styling.
+  ```
+      @media (min-width: 600px){
+          h1{
+              font-size: 15px;
+          }
+      }
+  ```
+- So if there is anything that is from 600pox upwards, then we should have a different styling.
 
 **3. Combine**
-  - You can also combine different breakpoints to target something that is a specific size.
-    ```
-    @media (min-width: 600px) and (max-width:900){
-        /* Styles for screens between 600px and 900px */
-    }
-    ```
- - You can also flip that around by changing the smaller size to a max-width:
+- You can also combine different breakpoints to target something that is a specific size.
   ```
-    @media (max-width: 600ox) and (min-width: 900px){
-        /* Styles for screens less than 600px and greater than 900px */
-    }
+  @media (min-width: 600px) and (max-width:900){
+      /* Styles for screens between 600px and 900px */
+  }
   ```
+- You can also flip that around by changing the smaller size to a max-width:
+```
+  @media (max-width: 600ox) and (min-width: 900px){
+      /* Styles for screens less than 600px and greater than 900px */
+  }
+```
 
 **4. Device**
+- you might also see this "screen" keyword being used, which is:
+```
+@media screen(orientation: landscape){
+    /* Styles for landscape orientation */
+}
+- This is not recommended to be used. It's just say targeting screens, or targeting print.
+```
 ---
 
 ### Summary Section (Summary of Notes) 
