@@ -73,7 +73,7 @@ The result would be:
 
 **3. Inline - Block**
 
-- **Block element** allows ú to set the height and width.
+- **Block element** allows us to set the height and width.
 - **Inline** allows us to have elements that go on to the same line.
 - Change the property to block-inline or inline-block, we can actually determine the layout of our website.
 - When you set the display property to *none*, then it will make any element on the screen disappear.
