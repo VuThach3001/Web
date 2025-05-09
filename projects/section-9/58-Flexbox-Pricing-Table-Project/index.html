@@ -12,16 +12,62 @@
       body {
         font-family: "Sono", sans-serif;
       }
+      .pricing-container{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+        height: 100vh;
+      }
+      .pricing-plan{
+        flex: 1;
+        max-width: 400px;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .plan-title{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .plan-price{
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .plan-features{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .plan-features li{
+        margin-bottom: 20px;
+      }
+      
+      .plan-button{
+        padding: 10px;
+        background-color: #ff6600;
+        color: #ffff;
+        border-radius: 5px;
+        border: none;
+      }
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        .pricing-container{
+          height: 100%;
+          flex-direction: column;
+        }
       }
     </style>
   </head>
 
   <body>
     <div class="pricing-container">
-      <div class="pricing-plan">
+      <div class="pricing-plan box1">
         <div class="plan-title">Basic</div>
         <div class="plan-price">$9.99/month</div>
         <ul class="plan-features">
@@ -31,7 +77,7 @@
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
-      <div class="pricing-plan">
+      <div class="pricing-plan box2">
         <div class="plan-title">Standard</div>
         <div class="plan-price">$19.99/month</div>
         <ul class="plan-features">
@@ -41,7 +87,7 @@
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
-      <div class="pricing-plan">
+      <div class="pricing-plan box3">
         <div class="plan-title">Premium</div>
         <div class="plan-price">$49.99/month</div>
         <ul class="plan-features">

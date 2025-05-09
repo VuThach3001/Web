@@ -63,7 +63,7 @@ height: 70vh;
 - If we set this property to start or end or whichever it is, the it's actually make this item separate from the groupthink and do its own thing
 
 **Align-content**
-- Similar to **align-items**, but it only works when you have the flex-wrap set to wrap.
+- Similar to **align-items**, but it only works when you have the **flex-wrap set to wrap**.
 - If we applied, align-content to center and we made our Flexbox wrap, then when the width of our window reduces, everything will bunch up together.
 ---
 
