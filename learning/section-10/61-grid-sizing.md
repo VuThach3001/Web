@@ -9,7 +9,8 @@
 ### Cue Column (Questions, Keywords, or Prompts)
 
 - How to Size Columns and Rows
-
+- **Column**: Change **width**
+- **Rows**: Change **height**
 ---
 
 ### Notes Section (Main Notes)
