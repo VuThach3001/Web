@@ -1,0 +1,16 @@
+.container {
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+}
+.cowboy{
+    background-color: rebeccapurple;
+}
+.astronaut{
+    background-color: rebeccapurple;
+}
+.book{
+    background-color: rebeccapurple;
+}
