@@ -39,17 +39,17 @@ There are 4 broad categories which we look at when we're determining the overall
   
   **1: ID**
   
-  ```
+  ```css
     li{color: blue;}
   ```
 
   **2: Attribute**
-  ```
+  ```css
     .first-class {color: red;}
   ```
   
   **3: Class**
-  ```
+  ```css
     li[draggable]{color: purple;}
   ```
 
